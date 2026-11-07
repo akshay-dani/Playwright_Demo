@@ -10,7 +10,7 @@ test('has title', async ({ page }) => {
 
 test('get started link', async ({ page }) => {
   await page.goto('https://playwright.dev/');
-  await page.screenshot({path:'example.pgn'});
+  await page.screenshot({path:'example.png'});
   // Click the get started link.
   await page.getByRole('link', { name: 'Get started' }).click();
 
